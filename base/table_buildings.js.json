@@ -1,0 +1,1135 @@
+{
+    "buildings": [
+        {
+            "shortname": "A",
+            "name": "Arbury Fine Arts Center",
+            "rooms": [
+                {
+                    "name": "102",
+                    "type": "LEC",
+                    "capacity": 125
+                },
+                {
+                    "name": "105",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "106",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "112",
+                    "type": "STU",
+                    "capacity": 24
+                },
+                {
+                    "name": "119",
+                    "type": "STU",
+                    "capacity": 20
+                },
+                {
+                    "name": "120",
+                    "type": "STU",
+                    "capacity": 24
+                },
+                {
+                    "name": "157",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "159",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "160",
+                    "type": "STU",
+                    "capacity": 24
+                },
+                {
+                    "name": "162",
+                    "type": "STU",
+                    "capacity": 24
+                },
+                {
+                    "name": "204",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "205",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "207",
+                    "type": "LEC",
+                    "capacity": 30
+                }
+            ]
+        },
+        {
+            "shortname": "B",
+            "name": "Brown Hall",
+            "rooms": [
+                {
+                    "name": "109",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "110",
+                    "type": "LEC",
+                    "capacity": 20
+                },
+                {
+                    "name": "111",
+                    "type": "LEC",
+                    "capacity": 15
+                },
+                {
+                    "name": "112",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "126",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "127",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "128",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "129",
+                    "type": "LAB",
+                    "capacity": 15
+                },
+                {
+                    "name": "130",
+                    "type": "LAB",
+                    "capacity": 15
+                },
+                {
+                    "name": "203",
+                    "type": "LEC",
+                    "capacity": 24
+                },
+                {
+                    "name": "204",
+                    "type": "LEC",
+                    "capacity": 50
+                },
+                {
+                    "name": "205",
+                    "type": "FNL",
+                    "capacity": 30
+                },
+                {
+                    "name": "206",
+                    "type": "HYB",
+                    "capacity": 40
+                },
+                {
+                    "name": "207",
+                    "type": "FNL",
+                    "capacity": 30
+                },
+                {
+                    "name": "212",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "213",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "214",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "215",
+                    "type": "LEC",
+                    "capacity": 15
+                },
+                {
+                    "name": "216",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "218",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "235",
+                    "type": "LEC",
+                    "capacity": 30
+                }
+            ]
+        },
+        {
+            "shortname": "C",
+            "name": "Curtiss Hall",
+            "rooms": [
+                {
+                    "name": "100",
+                    "type": "LEC",
+                    "capacity": 55
+                },
+                {
+                    "name": "102",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "127",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "128",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "130",
+                    "type": "LEC",
+                    "capacity": 55
+                },
+                {
+                    "name": "140",
+                    "type": "HYB",
+                    "capacity": 25
+                },
+                {
+                    "name": "141",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "147",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "180",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "181",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "182",
+                    "type": "LEC",
+                    "capacity": 80
+                },
+                {
+                    "name": "191",
+                    "type": "LEC",
+                    "capacity": 20
+                },
+                {
+                    "name": "203",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "220",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "221",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "222",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "223",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "224",
+                    "type": "HYB",
+                    "capacity": 80
+                },
+                {
+                    "name": "227",
+                    "type": "LEC",
+                    "capacity": 35
+                }
+            ]
+        },
+        {
+            "shortname": "CRC",
+            "name": "",
+            "rooms": [
+                {
+                    "name": "C1",
+                    "type": "LEC",
+                    "capacity": 25
+                }
+            ]
+        },
+        {
+            "shortname": "DLT",
+            "name": "",
+            "rooms": [
+                {
+                    "name": "TBA",
+                    "type": "HYB",
+                    "capacity": 30
+                }
+            ]
+        },
+        {
+            "shortname": "GA",
+            "name": "Gilbertson Hall - Atrium",
+            "rooms": [
+                {
+                    "name": "111",
+                    "type": "LAB",
+                    "capacity": 20
+                },
+                {
+                    "name": "114",
+                    "type": "FNL",
+                    "capacity": 30
+                },
+                {
+                    "name": "125",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "211",
+                    "type": "LEC",
+                    "capacity": 32
+                },
+                {
+                    "name": "214",
+                    "type": "LEC",
+                    "capacity": 25
+                }
+            ]
+        },
+        {
+            "shortname": "GN",
+            "name": "Gilbertson Hall - North Wing",
+            "rooms": [
+                {
+                    "name": "104",
+                    "type": "LEC",
+                    "capacity": 32
+                },
+                {
+                    "name": "107",
+                    "type": "LEC",
+                    "capacity": 20
+                },
+                {
+                    "name": "108",
+                    "type": "LEC",
+                    "capacity": 20
+                },
+                {
+                    "name": "109",
+                    "type": "LEC",
+                    "capacity": 20
+                },
+                {
+                    "name": "297",
+                    "type": "HYB",
+                    "capacity": 30
+                }
+            ]
+        },
+        {
+            "shortname": "GS",
+            "name": "Gilbertson Hall - South Wing",
+            "rooms": [
+                {
+                    "name": "112",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "113",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "114",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "115",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "117",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "119",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "122",
+                    "type": "LEC",
+                    "capacity": 32
+                },
+                {
+                    "name": "126",
+                    "type": "LEC",
+                    "capacity": 42
+                },
+                {
+                    "name": "127",
+                    "type": "LEC",
+                    "capacity": 50
+                },
+                {
+                    "name": "202",
+                    "type": "LEC",
+                    "capacity": 100
+                },
+                {
+                    "name": "212",
+                    "type": "HYB",
+                    "capacity": 35
+                },
+                {
+                    "name": "213",
+                    "type": "FNL",
+                    "capacity": 35
+                },
+                {
+                    "name": "214",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "215",
+                    "type": "HYB",
+                    "capacity": 35
+                },
+                {
+                    "name": "217",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "219",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "220",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "221",
+                    "type": "LEC",
+                    "capacity": 175
+                }
+            ]
+        },
+        {
+            "shortname": "H",
+            "name": "Health & Human Services",
+            "rooms": [
+                {
+                    "name": "105",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "107",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "109",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "110",
+                    "type": "LAB",
+                    "capacity": 32
+                },
+                {
+                    "name": "132",
+                    "type": "LEC",
+                    "capacity": 100
+                },
+                {
+                    "name": "134",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "136",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "138",
+                    "type": "LEC",
+                    "capacity": 32
+                },
+                {
+                    "name": "143",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "272",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "274",
+                    "type": "HYB",
+                    "capacity": 35
+                },
+                {
+                    "name": "276",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "277",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "278",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "279",
+                    "type": "LAB",
+                    "capacity": 30
+                },
+                {
+                    "name": "280",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "282",
+                    "type": "LEC",
+                    "capacity": 100
+                }
+            ]
+        },
+        {
+            "shortname": "KCC",
+            "name": "",
+            "rooms": [
+                {
+                    "name": "TBA",
+                    "type": "HYB",
+                    "capacity": 30
+                }
+            ]
+        },
+        {
+            "shortname": "MAC",
+            "name": "",
+            "rooms": [
+                {
+                    "name": "101",
+                    "type": "HYB",
+                    "capacity": 25
+                },
+                {
+                    "name": "106",
+                    "type": "HYB",
+                    "capacity": 25
+                },
+                {
+                    "name": "124",
+                    "type": "HYB",
+                    "capacity": 25
+                },
+                {
+                    "name": "125",
+                    "type": "HYB",
+                    "capacity": 25
+                },
+                {
+                    "name": "126",
+                    "type": "HYB",
+                    "capacity": 25
+                },
+                {
+                    "name": "TBA",
+                    "type": "HYB",
+                    "capacity": 25
+                }
+            ]
+        },
+        {
+            "shortname": "OFF",
+            "name": "OFF Campus",
+            "rooms": [
+                {
+                    "name": "CAMPUS",
+                    "type": "ACT",
+                    "capacity": 25
+                }
+            ]
+        },
+        {
+            "shortname": "ONL",
+            "name": "On-Line",
+            "rooms": [
+                {
+                    "name": "1",
+                    "type": "HYB",
+                    "capacity": 60
+                }
+            ]
+        },
+        {
+            "shortname": "P",
+            "name": "Pioneer Hall",
+            "rooms": [
+                {
+                    "name": "102",
+                    "type": "LAB",
+                    "capacity": 15
+                },
+                {
+                    "name": "105",
+                    "type": "LAB",
+                    "capacity": 12
+                },
+                {
+                    "name": "106",
+                    "type": "LAB",
+                    "capacity": 16
+                },
+                {
+                    "name": "107",
+                    "type": "LAB",
+                    "capacity": 12
+                },
+                {
+                    "name": "108",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "118",
+                    "type": "LAB",
+                    "capacity": 12
+                },
+                {
+                    "name": "120",
+                    "type": "LAB",
+                    "capacity": 12
+                },
+                {
+                    "name": "123",
+                    "type": "LAB",
+                    "capacity": 12
+                },
+                {
+                    "name": "140",
+                    "type": "LAB",
+                    "capacity": 15
+                },
+                {
+                    "name": "147",
+                    "type": "LAB",
+                    "capacity": 16
+                },
+                {
+                    "name": "149",
+                    "type": "LAB",
+                    "capacity": 12
+                },
+                {
+                    "name": "150",
+                    "type": "LAB",
+                    "capacity": 16
+                },
+                {
+                    "name": "151",
+                    "type": "LAB",
+                    "capacity": 16
+                },
+                {
+                    "name": "229",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "231",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "232",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "240",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "241",
+                    "type": "LEC",
+                    "capacity": 32
+                },
+                {
+                    "name": "242",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "243",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "245",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "247",
+                    "type": "LEC",
+                    "capacity": 50
+                }
+            ]
+        },
+        {
+            "shortname": "R",
+            "name": "Ryder Center",
+            "rooms": [
+                {
+                    "name": "167",
+                    "type": "ACT",
+                    "capacity": 25
+                },
+                {
+                    "name": "170",
+                    "type": "ACT",
+                    "capacity": 25
+                },
+                {
+                    "name": "244",
+                    "type": "ACT",
+                    "capacity": 25
+                },
+                {
+                    "name": "246",
+                    "type": "ACT",
+                    "capacity": 25
+                },
+                {
+                    "name": "255",
+                    "type": "ACT",
+                    "capacity": 25
+                },
+                {
+                    "name": "AUX",
+                    "type": "ACT",
+                    "capacity": 25
+                },
+                {
+                    "name": "GYM",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "POOL",
+                    "type": "ACT",
+                    "capacity": 25
+                },
+                {
+                    "name": "TENNIS",
+                    "type": "ACT",
+                    "capacity": 25
+                }
+            ]
+        },
+        {
+            "shortname": "SE",
+            "name": "Science East",
+            "rooms": [
+                {
+                    "name": "116",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "117",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "118",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "119",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "120",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "121",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "123",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "124",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "125",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "126",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "127",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "135",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "137",
+                    "type": "HYB",
+                    "capacity": 35
+                },
+                {
+                    "name": "139",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "145",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "203",
+                    "type": "REC",
+                    "capacity": 40
+                },
+                {
+                    "name": "204",
+                    "type": "LEC",
+                    "capacity": 80
+                },
+                {
+                    "name": "206",
+                    "type": "LEC",
+                    "capacity": 25
+                },
+                {
+                    "name": "221",
+                    "type": "REC",
+                    "capacity": 30
+                },
+                {
+                    "name": "222",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "223",
+                    "type": "LEC",
+                    "capacity": 36
+                },
+                {
+                    "name": "224",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "225",
+                    "type": "LEC",
+                    "capacity": 50
+                },
+                {
+                    "name": "226",
+                    "type": "REC",
+                    "capacity": 35
+                },
+                {
+                    "name": "228",
+                    "type": "LAB",
+                    "capacity": 24
+                },
+                {
+                    "name": "230",
+                    "type": "LAB",
+                    "capacity": 10
+                },
+                {
+                    "name": "233",
+                    "type": "LAB",
+                    "capacity": 8
+                },
+                {
+                    "name": "239",
+                    "type": "LAB",
+                    "capacity": 16
+                },
+                {
+                    "name": "240",
+                    "type": "LAB",
+                    "capacity": 16
+                },
+                {
+                    "name": "241",
+                    "type": "LAB",
+                    "capacity": 24
+                }
+            ]
+        },
+        {
+            "shortname": "STU",
+            "name": "Art Studio",
+            "rooms": [
+                {
+                    "name": "106",
+                    "type": "STU",
+                    "capacity": 24
+                },
+                {
+                    "name": "107",
+                    "type": "STU",
+                    "capacity": 24
+                }
+            ]
+        },
+        {
+            "shortname": "SW",
+            "name": "Science West",
+            "rooms": [
+                {
+                    "name": "101",
+                    "type": "LAB",
+                    "capacity": 8
+                },
+                {
+                    "name": "107",
+                    "type": "LAB",
+                    "capacity": 24
+                },
+                {
+                    "name": "108",
+                    "type": "LEC",
+                    "capacity": 60
+                },
+                {
+                    "name": "111",
+                    "type": "LAB",
+                    "capacity": 24
+                },
+                {
+                    "name": "119",
+                    "type": "LAB",
+                    "capacity": 24
+                },
+                {
+                    "name": "124",
+                    "type": "LAB",
+                    "capacity": 24
+                },
+                {
+                    "name": "143",
+                    "type": "LEC",
+                    "capacity": 32
+                },
+                {
+                    "name": "144",
+                    "type": "LAB",
+                    "capacity": 8
+                },
+                {
+                    "name": "200",
+                    "type": "LAB",
+                    "capacity": 20
+                },
+                {
+                    "name": "204",
+                    "type": "LAB",
+                    "capacity": 18
+                },
+                {
+                    "name": "205",
+                    "type": "LAB",
+                    "capacity": 8
+                },
+                {
+                    "name": "206",
+                    "type": "LEC",
+                    "capacity": 20
+                },
+                {
+                    "name": "207",
+                    "type": "LAB",
+                    "capacity": 16
+                },
+                {
+                    "name": "214",
+                    "type": "LAB",
+                    "capacity": 24
+                },
+                {
+                    "name": "217",
+                    "type": "LAB",
+                    "capacity": 24
+                },
+                {
+                    "name": "224",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "225",
+                    "type": "LAB",
+                    "capacity": 24
+                }
+            ]
+        },
+        {
+            "shortname": "TBA",
+            "name": "",
+            "rooms": [
+                {
+                    "name": "TBA",
+                    "type": "LEC",
+                    "capacity": 35
+                }
+            ]
+        },
+        {
+            "shortname": "W",
+            "name": "Wickes Hall",
+            "rooms": [
+                {
+                    "name": "115",
+                    "type": "LEC",
+                    "capacity": 80
+                },
+                {
+                    "name": "216",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "226",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "267",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "280",
+                    "type": "LEC",
+                    "capacity": 40
+                },
+                {
+                    "name": "290",
+                    "type": "LEC",
+                    "capacity": 15
+                },
+                {
+                    "name": "291",
+                    "type": "LEC",
+                    "capacity": 15
+                },
+                {
+                    "name": "292",
+                    "type": "LEC",
+                    "capacity": 15
+                }
+            ]
+        },
+        {
+            "shortname": "Z",
+            "name": "Zahnow Library",
+            "rooms": [
+                {
+                    "name": "111",
+                    "type": "LEC",
+                    "capacity": 35
+                },
+                {
+                    "name": "214",
+                    "type": "LEC",
+                    "capacity": 30
+                },
+                {
+                    "name": "223A",
+                    "type": "LEC",
+                    "capacity": 20
+                }
+            ]
+        }
+    ]
+}
