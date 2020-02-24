@@ -458,3 +458,198 @@ ux-splitpane > * {
      padding:1em;
      background-color:red;
  }
+/********************************************************************************
+ *
+ * GANTT GRAPH 
+ *
+ ********************************************************************************/
+
+.gantt {
+    position: relative;
+    flex:auto;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow: auto;
+    position: relative;
+    border:1px solid #0003;
+}
+
+
+.gantt-group-container {
+    position: absolute;
+    left:0;right:0;bottom:0;top:0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    flex:none;
+    overflow: auto;
+}
+
+.timeline-wrapper {
+    user-select: none;
+    display:flex;
+    overflow: hidden;
+    border-bottom: 1px solid #484848;
+}
+
+.scroll-bar-padder {
+    flex:none;
+    background-color:#9a9aaa;
+}
+
+.timeline-scroll {
+    flex:none;
+    display: flex;
+    background-color:#8a8aaa;
+    color:#eaeafa;
+}
+
+.timeline-scroll > * {
+    flex:1 auto;
+    padding:0.25em 0.5em;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.timeline-scroll .home:hover,
+.timeline-scroll > *:hover {
+    background-color:#0004;
+}
+
+.timeline-scroll .home {
+    background-color: #6a6a9a;
+}
+.timeline-scroll > *:active {
+    border-color:#fff2;
+}
+
+.timeline-scale {
+    background-color:#cacada;
+    position: relative;
+    flex:auto;
+    overflow: hidden;
+}
+
+.time-header label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.time-header {
+    position: absolute;
+    display:inline-block;
+    top:0px;
+    bottom:0px;
+}
+
+.time-header.offhours {
+    background-color: #b8b8d8;
+}
+
+
+.home.onpoint {
+    background-color: #a60;
+}
+
+.gantt-etched {
+    border-left:1px solid #fff4;
+    border-top:1px solid #fff4;
+    border-right:1px solid #0004;
+    border-bottom:1px solid #0004;
+}
+
+
+.gantt-vertical-line {
+    border-left:1px dotted #4566;
+    position: absolute;
+    top:0;
+    bottom:0;
+}
+
+.gantt-horizontal-line {
+    border-top:1px dotted #4566;
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+.gantt-vertical-line.selected {
+    background-color: #f801;
+}
+
+/********************************************************************************
+ *
+ * GANTT GROUP 
+ *
+ ********************************************************************************/
+
+.gantt-group {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: stretch;
+    z-index: 100;
+}
+
+.gantt-group-titlebar {
+    flex:none;
+    /* background-color: #f008; */
+    background-color: #567;
+    padding:0.25em 0.5em;
+    text-align: left;
+    color:#def;
+    text-shadow:1px 1px 1px #345;
+}
+.gantt-group-wrapper {
+    /* display: flex;     */
+}
+
+.ensure-visible {
+    position: absolute !important;
+    top:0;
+    left:0;
+    right:0;
+}
+
+/********************************************************************************
+ *
+ * GANTT ROW ITEM 
+ *
+ ********************************************************************************/
+
+.gantt-row-item {
+    font-size: 12px;
+    display: flex;
+    align-items: stretch;
+}
+
+
+.gantt-row-item.select {
+    background-color:#f801;
+}
+
+.gantt-row-content-container {
+    flex:auto;
+    background-color: #48f1;
+    border-top:1px dotted #4564;
+}
+
+.gantt-row-item-label {
+    background-color: #678;
+    color:#fdfeff;
+    flex:none;
+    overflow: hidden;
+    text-shadow: 0 0 1px #222;
+    padding: 1.25em 0;
+ }
+
+ .gantt-row-item[label=SATURDAY] .gantt-row-item-label,
+ .gantt-row-item[label=SUNDAY] .gantt-row-item-label {
+     background-color: #568;
+ }
+
+ .gantt-row-item-label label {
+    padding-left: 1em;
+ }
