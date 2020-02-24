@@ -1,0 +1,316 @@
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- <ux-splash>
+            <h1>University Course Management System (UCSS)</h1>
+            <h2>Time Graph</h2>
+        </ux-splash> -->
+
+        <div id="workspace">
+            
+        <!-- </div> style='display:none;'> -->
+            <ux-timegraph id='timegraph'>
+            </ux-timegraph>
+        </div>
+
+        <script src="js/dev_base_data.js"></script>
+        <script src="js/dev_base.js"></script>
+
+        <script src="js/xwidgets.js"></script>
+        <script src="js/xtimegraph.js"></script>
+
+        <script>
+            
+            let tg = document.getElementById('timegraph');
+            let building = getBuilding('SE');
+
+            // console.log(building);
+            let title = building.name + ' (' + building.shortname + ')';
+            tg.pauseRedraw();
+            tg.clearGroups();
+            // console.log(title);
+            let z = 8;
+            for(let r of building.rooms) {
+                tg.addGroup({
+                    title:title,
+                    subtitle:r.name
+                });
+                if (--z <= 0) break;
+            }
+            tg.releasePause();
+            building = null;
+        </script>
+    </body>
+</html>
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:16px;
+}
+
+* > {
+    box-sizing: border-box;
+}
+
+.border-raised {
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+.ux-button {
+    box-sizing: border-box;
+    background-color:#ccc;
+    padding:0 0.375em;
+    border-width: 1px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ux-button:active {
+    border-left-color:#444;
+    border-top-color:#444;
+    border-right-color: #eee;
+    border-bottom-color:#eee;
+}
+
+.ux-button div {
+    display: inline-block;
+}
+
+.ux-button:active > * {
+    transform: translate(1px, 1px);
+    text-shadow: 0px 0px 2px white;
+}
+
+.flex-none {
+    flex:none;
+}
+
+.flex-grow {
+    flex:1 auto;
+}
+
+.button-bar {
+    display: flex;
+    overflow: hidden;
+}
+
+.no-padding {
+    padding:0px;
+}
+
+/**************************************************
+ *
+ * SPLASH
+ *
+ *************************************************/
+
+ .ux-splash {
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     position: absolute;
+     left:0;top:0;right:0;bottom:0;
+     z-index: 1000000;
+ }
+
+/**************************************************
+ *
+ * TIME GRAPH HEADER
+ *
+ *************************************************/
+ .ux-timegraph-header {
+    user-select: none;
+    display: flex;
+    overflow:hidden;
+    background-color: #ddd;
+    z-index: 100;
+    flex:none;
+}
+
+.ux-button.home {
+    background-color:#f808;
+    text-shadow: 1px 1px 1px white;
+    color:#666;
+}
+
+.scale .ux-button[special=offhours] {
+    background-color: #bbb;
+}
+
+.scale .ux-button {
+    background-color: #eee;    
+    padding:0;
+}
+
+.scale .ux-button.selected {
+    background-color:#bacada;
+    text-shadow: 0px 0px 2px white;
+}
+
+
+.scale .ux-button[special=offhours].selected {
+    background-color: #aabaca;
+    text-shadow: 0px 0px 2px white;
+}
+
+/**************************************************
+ *
+ * TIME GRAPH
+ *
+ *************************************************/
+
+ .ux-timegraph {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border:1px solid olive;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+    /* to be removed as other components are developed*/
+    height:calc(100% - 2em);     
+ }
+
+ .ux-timegraph .content {
+    flex:auto;
+    box-sizing: border-box;
+    overflow: auto;
+    z-index: 100;
+}
+
+ .ux-timegraph .grid-line[special=offhours] {
+     background-color: #00000002;
+ }
+
+.ux-timegraph .grid-line.selected {
+    background-color:#bfdfff18;
+}
+
+.ux-timegraph .grid-line.selected[special=offhours] {
+    background-color:#9fbfdf30;
+}
+
+.ux-timegraph .grid-line {
+    position: absolute;
+    border-left:1px dotted #808080;
+    top:0px;
+    bottom:0px;
+    z-index: 0;
+}
+
+/**************************************************
+ *
+ * TIME GRAPH GROUP
+ *
+ *************************************************/
+
+.ux-timegraph-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+} 
+
+.ux-timegraph-group .content {
+    display:flex;
+    flex-direction: column;
+}
+
+.header-bar {
+    display:flex;
+    background-color: #c0c0c8;
+    padding:0.25em 0.5em;
+    align-items: center;
+    font-size: 0.8em;
+    z-index: 10000;
+    box-sizing: border-box;
+}
+
+
+.header-bar.selected .primary,
+.header-bar.selected .secondary {
+    color:white;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+}
+
+.header-bar.selected.expanded,
+.header-bar.selected {
+    background-color:#8aaa9a;
+}
+
+
+.header-bar.expanded {
+    background-color: #b8b8bf;
+}
+
+
+.header-bar .primary {
+    color:#223;
+}
+
+.header-bar .secondary::before {
+    content:'-';
+    padding: 0 0.25em;
+    font-weight: bold;
+}
+
+.header-bar .secondary {
+    color:#505070;
+}
+
+.header-bar .toggle-button {
+    margin-left:auto;
+    color:#ffa;
+    text-shadow: 0 0 2px black;
+}
+
+.header-bar .toggle-button.selected {
+    color:#fff;
+    text-shadow: 0 0 2px black;
+}
+
+.header-bar.sticky {
+    position: absolute;
+    left:0px;
+    right:0px;
+}
+
+/**************************************************
+ *
+ * TIME GRAPH SUBGROUP
+ *
+ *************************************************/
+
+.ux-timegraph-subgroup {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.ux-timegraph-subgroup .content {
+    border-bottom:1px dotted #808080;
+    box-sizing: border-box;
+}
+
+.ux-timegraph-subgroup .gutter-bar {
+    font-family: monospace;
+    font-size: 0.8em;
+    background-color:#dadadf;
+    color:#444;
+    box-sizing: border-box;
+    padding:0.25em;
+    text-shadow: 0 0 1px white;
+    /* text-align: left; */
+}
+
+.ux-timegraph-subgroup label {
+
+}
