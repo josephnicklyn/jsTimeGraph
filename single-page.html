@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='css/styles.css'>
+        <link rel='stylesheet' href='css/grid.css'>
+
+    </head>
+    <body>
+
+        <script>
+            document.body.style.display = 'none';
+        </script>
+        <div id='desktop'>
+           
+        <ux-tabview id='tabviewA' onside='top' onclose="onTabClosed">
+            <ux-menu overflow='managed' orientation='vertidcal'>
+                <ux-menuitem label='File'>
+                    <ux-menuitem label='Life'>
+                        <ux-menuitem label='Domain'>
+                            <ux-menuitem label='Archaea'></ux-menuitem>
+                            <ux-menuitem label='Bacteria'></ux-menuitem>
+                            <ux-menuitem label='Eucaryote'></ux-menuitem>
+                        </ux-menuitem>
+                    </ux-menuitem>
+                    <ux-menuitem label='Family'>
+                        <ux-menuitem label='Parents'>
+                            <ux-menuitem label='Mother'></ux-menuitem>
+                            <ux-menuitem label='Father'></ux-menuitem>
+                        </ux-menuitem>
+                    </ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    <ux-menuitem label='New File'></ux-menuitem>
+                    <ux-menuitem label='New Window'></ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    <ux-menuitem label='Open File'></ux-menuitem>
+                    <ux-menuitem label='Open Folder'></ux-menuitem>
+                    <ux-menuitem label='Open Workspace'></ux-menuitem>
+                    <ux-menuitem label='Open Recent'></ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    <ux-menuitem label='Add Folder to Workspace'></ux-menuitem>
+                    <ux-menuitem label='Save Workspace'></ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    <ux-menuitem label='Save'></ux-menuitem>
+                    <ux-menuitem label='Save As'></ux-menuitem>
+                    <ux-menuitem label='Save All'></ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    <ux-menuitem label='Auto Save'></ux-menuitem>
+                    <ux-menuitem label='Prefrences'></ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    <ux-menuitem label='Revert File'></ux-menuitem>
+                    <ux-menuitem label='Close Editor'></ux-menuitem>
+                    <ux-menuitem label='Close File'></ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    
+                    <ux-menuitem label='Open'></ux-menuitem>
+                    <ux-menuitem label='Close'></ux-menuitem>
+                    <ux-menuitem label='-'></ux-menuitem>
+                    <ux-menuitem label='Save'></ux-menuitem>
+                </ux-menuitem>
+                <ux-menuitem label='Edit'>
+                    <ux-menuitem label='Cut'></ux-menuitem>
+                    <ux-menuitem label='Copy'></ux-menuitem>
+                    <ux-menuitem label='Paste'></ux-menuitem>
+                    <ux-menuitem label='Domain'>
+                        <ux-menuitem label='Archaea'></ux-menuitem>
+                        <ux-menuitem label='Bacteria'></ux-menuitem>
+                        <ux-menuitem label='Eucaryote'></ux-menuitem>
+                    </ux-menuitem>
+                </ux-menuitem>
+              
+                <ux-menuitem label='Selection'></ux-menuitem>
+                <ux-menuitem label='View'></ux-menuitem>
+                <ux-menuitem label='Go'></ux-menuitem>
+                <ux-menuitem label='Debug'></ux-menuitem>
+                <ux-menuitem label='Terminal'></ux-menuitem>
+                <ux-menuitem label='Help'>
+                    <ux-menuitem label='Options'>
+                        <ux-menuitem label='Open'></ux-menuitem>
+                        <ux-menuitem label='Close'></ux-menuitem>
+                        <ux-menuitem label='Edit'>
+                            <ux-menuitem label='Cut'></ux-menuitem>
+                            <ux-menuitem label='Copy'></ux-menuitem>
+                            <ux-menuitem label='Paste'></ux-menuitem>
+                        </ux-menuitem>
+                    </ux-menuitem>
+                    <ux-menuitem label='About'></ux-menuitem>
+                    <div label="Custom Menu Item">
+                        <h4>Hello World!!!</h4>
+                        <button type='button' onclick='sendCloseMessage(this)'>Cancel</button>
+                    </div>
+                </ux-menuitem>
+            </ux-menu>
+            <div class='xbox' style='border: 1px solid #0004; overflow: hidden !important;'> 
+                <div style='display: flex; flex:auto; '>
+                    <ux-gantt id='ganttAlpha' expanded=true>
+                        <ux-gantt-group groupid='grp-cs' label='CS-Department'> </ux-gantt-group>
+                        <ux-gantt-group groupid='grp-cis' label='CIS-Department'> </ux-gantt-group>
+                        <ux-gantt-group groupid='grp-art' label='Art-Department'> </ux-gantt-group>
+                        <ux-gantt-group groupid='grp-math' label='Mathematics-Department'> </ux-gantt-group>
+                  
+                    </ux-gantt>
+                    
+                    <!-- <button type='button' onclick='moveTabs("top")'>Tabs on Top</button>
+                    <button type='button' onclick='moveTabs("bottom")'>Tabs on Bottom</button>
+                    <button type='button' onclick='moveTabs("left")'>Tabs on Left</button>
+                    <button type='button' onclick='moveTabs("right")'>Tabs on Right</button>
+                    <button type='button' onclick='addNewTab()'>Add New Tab</button> -->
+                </div>
+
+            </div>
+            <div label='Home' selected=false class='ux-container'>
+                <ux-splitpane  orientation='!vertical' size=220>
+                    <div min=180  style="padding:1em;"><h2>Side A.0</h2></div>
+                    <ux-splitpane  orientation='vertical' size=-120>
+                        <div><h2>Side B.0</h2></div>
+                        <ux-tabview max=220 id='tabviewB' onside='bottom' class='border-raised' onclose="onTabClosed">
+                            <div label='placeholder'>
+                                placeholder
+                            </div>
+                            <div label='Test 1'>
+                                <h1>Test 2</h1>
+                            </div>
+                            <div label='Test 2'>
+                                <h1>Test 2</h1>
+                            </div>
+                        </ux-tabview>
+       
+                    </ux-splitpane>
+                </ux-splitpane>
+            </div>
+            <div label='Database' selected=false>
+                <h1>On Database</h1>
+            </div>
+            <div label='Home' closeable=true>
+                <h1>On Home</h1>
+            </div>
+            <div label='Database' closeable=true>
+                <h1>On Database</h1>
+            </div>
+            <div label='Home' closeable=true>
+                <h1>On Home</h1>
+            </div>
+        </ux-tabview>
+    </div>
+        <script src="js/utils.js"></script>
+        <script src="js/wc-tab.js"></script>
+        <script src="js/wc-splitpane.js"></script>
+        <script src="js/wc-menu.js"></script>
+        <script src="js/wc-gantt.js"></script>
+        <script> 
+            // UXGantt.addEvent(
+            //     {
+            //         type:'event',
+            //         meeting: {
+            //             startTime:1000,
+            //             length:90,
+            //             place:'b-104'
+            //         }
+            //     }
+
+            // );
+            // let grp = document.getElementById('grp-cs');
+            // if (grp) {
+            //     grp.addActivity(
+            //         {
+            //             activityName:'meeting',
+            //             id:0,
+            //             meetings: [
+            //                 {
+            //                     timestart:1000,
+            //                     length: 90,
+            //                     days:'mw',
+            //                     location:''
+            //                 }
+            //             ]
+            //         }
+            //     );
+
+            // }
+
+
+            let ganttGroup = new UXGanttGroup('grp-phys', 'Physics-Department');
+            let ganttAlpha = document.getElementById('ganttAlpha');
+            console.log(ganttAlpha.appendChild(ganttGroup));
+            document.body.style.display = '';
+            function moveTabs(e) {
+                let tab = document.getElementById('tabviewA');
+                tab.setAttribute('onside', e);
+                console.log(e);
+            }
+
+            function onTabClosed(tab) {
+                console.log(tab);
+                return true;
+            }
+            let zCount = 0;
+            function addNewTab() {
+                let tabItem = document.createElement('div');
+                let tabContent = document.createElement('h3');
+                let title = 'New Tab ' + (++zCount);
+                tabItem.appendChild(tabContent);
+                tabItem.setAttribute('label', title);
+                tabContent.innerHTML = 'Hello ' + title +'!!!';
+                let tab = document.getElementById('tabviewA');
+                tab.addItem(tabItem);
+            }
+
+            function sendCloseMessage(e) {
+                let handled = e.dispatchEvent(new CustomEvent('onmessage', { bubbles: true, detail: { msg:'close'} }))
+                console.log('@handled', handled);
+            }
+        </script>
+
+    </body>
+</html>
